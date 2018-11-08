@@ -25,7 +25,13 @@ public class Methods {
 			m.Pizza();
 				}
 //Added a comment for branch demo
+		
 		//Adding comment to demo branch conflicts in branch1
+
+		//Added second comment to demo branch2
+		
+		//Adding new comment to branch 2 to demo branching conflict
+
 	}
 
 
