@@ -26,6 +26,8 @@ public class Methods {
 				}
 //Added a comment for branch demo
 		//Added second comment to demo branch2
+		
+		//Adding new comment to branch 2 to demo branching conflict
 	}
 
 
