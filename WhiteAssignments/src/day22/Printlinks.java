@@ -35,3 +35,6 @@ WebDriver driver;
 		}
 	
 
+/*Good. The logic is correct but here you had to print the names of links from bottom section, so don't write 
+*driver.findElements, instead locate the bottom section in a variable and then write bottomSection.findElements()
+*/

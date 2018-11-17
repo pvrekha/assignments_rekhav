@@ -12,16 +12,14 @@ import org.testng.annotations.Test;
 
 public class TimeandDate {
 
+	WebDriver driver;
 
-WebDriver driver;
-	
 	public static boolean dateValidity(String date) {
 		boolean validation = true;
 		try {
-			DateTimeFormatter formatter  = DateTimeFormat.forPattern("MMM dd, yyyy");
+			DateTimeFormatter formatter = DateTimeFormat.forPattern("MMM dd, yyyy");
 			DateTime currentTime = formatter.parseDateTime(date);
-		}
-		catch(Exception e) {
+		} catch (Exception e) {
 			validation = false;
 		}
 		return validation;
@@ -34,32 +32,16 @@ WebDriver driver;
 		driver.manage().window().maximize();
 		driver.get("https://www.timeanddate.com/");
 	}
-	
+
 	@Test
 	public void dateVerification() throws InterruptedException {
-		//String date = driver.findElement(By.id("ij2")).getText();
+		// String date = driver.findElement(By.id("ij2")).getText();
 		String date = driver.findElement(By.cssSelector("#ij2")).getText();
 		Thread.sleep(2000);
-		//String date = driver.findElement(By.xpath(("//span[contains(@id='ij2']"))));
+		// String date = driver.findElement(By.xpath(("//span[contains(@id='ij2']"))));
 		System.out.println(date);
-		Assert.assertTrue(dateValidity(date));		
+		Assert.assertTrue(dateValidity(date));
 	}
-	
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Excellent
