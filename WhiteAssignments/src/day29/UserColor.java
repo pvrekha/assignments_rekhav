@@ -11,7 +11,7 @@ public class UserColor {
 		     System.out.println("Enter 5 colors");
 		     String j = null;
 		     ArrayList<String>colors = new ArrayList<String>();
-		     for(int i=0;i<=5;i++)
+		     for(int i=0;i<5;i++)
 		     {  
 		    	
 		         colors.add(j);
