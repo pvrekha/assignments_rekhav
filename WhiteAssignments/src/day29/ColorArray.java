@@ -24,3 +24,4 @@ public class ColorArray {
 
 	}
 }
+//The logic is correct but HAve dinner in a restaurant had to be printed only once
