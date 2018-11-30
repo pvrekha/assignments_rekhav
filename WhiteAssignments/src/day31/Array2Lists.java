@@ -32,3 +32,4 @@ public class Array2Lists {
 	
 	
 }
+//You can try how we did it in the class :)
